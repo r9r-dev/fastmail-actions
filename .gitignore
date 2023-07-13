@@ -90,3 +90,6 @@ _UpgradeReport_Files/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# appsettings protection just in case the token is set
+appsettings.json
