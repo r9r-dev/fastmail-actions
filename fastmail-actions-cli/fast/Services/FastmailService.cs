@@ -11,8 +11,9 @@ public class FastmailService
     private readonly string _token = "#APIKEY";
     private readonly string _sessionUrl = "jmap/session";
 
-    public FastmailService()
+    public FastmailService(string token)
     {
+        _token = token;
     }
 
     public async Task<string> SetMaskedEmail(string description)
